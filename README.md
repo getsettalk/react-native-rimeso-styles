@@ -2,11 +2,17 @@
 
 > `react-native-rimeso-styles` - Utility-first design library inspired by frameworks like Bootstrap
 
+
 [![npm version](https://img.shields.io/npm/v/react-native-rimeso-styles.svg)](https://www.npmjs.com/package/react-native-rimeso-styles)
-[![Build Status](https://img.shields.io/github/workflow/status/yourusername/yourrepository/Build)](https://github.com/yourusername/yourrepository/actions)
+[![Build Status](https://img.shields.io/github/workflow/status/getsettalk/react-native-rimeso-styles/Build)](https://github.com/getsettalk/react-native-rimeso-styles/actions)
 [![License](https://img.shields.io/npm/l/react-native-rimeso-styles.svg)](https://opensource.org/licenses/MIT)
 
+
 This documentation provides an overview of the utility classes available in the Rimeso CSS library for React Native. These utility classes are designed to help you quickly apply styles to your components using familiar class names.
+
+
+![ScreenShots](https://github.com/user-attachments/assets/d2b66bc6-d877-4c96-b9fe-54660a5d58f5)
+
 
 ## Table of Contents
 
@@ -22,6 +28,7 @@ This documentation provides an overview of the utility classes available in the 
 - [Font Weight](#font-weight)
 - [Position](#position)
 - [Position Offsets](#position-offsets)
+- [How to use](#How-to-use)
 
 ## Flexbox
 
@@ -249,7 +256,7 @@ To get started with `react-native-rimeso-styles`, follow these steps:
    yarn add react-native-rimeso-styles
    ```
 
-## How to use 
+## How to use
 
 First Import RnStyles or if you have required than also import combineStyles
 ```
