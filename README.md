@@ -342,7 +342,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-For any questions or feedback, please reach out to [eamil](mailto:rajrock7254@gmail.com).
+For any questions or feedback, please reach out to [email](mailto:rajrock7254@gmail.com).
 
 ---
 
