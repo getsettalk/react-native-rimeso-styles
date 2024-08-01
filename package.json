@@ -1,6 +1,7 @@
 {
   "name": "react-native-rimeso-styles",
-  "version": "1.0.0",
+  "version": "1.2.0",
+  "description": "A comprehensive utility-first styling framework for React Native, inspired by Bootstrap 5",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -11,11 +12,30 @@
     "react-native",
     "styles",
     "css",
-    "framework"
+    "framework",
+    "bootstrap",
+    "bootstrap-5",
+    "utility-first",
+    "mobile",
+    "ios",
+    "android",
+    "flexbox",
+    "layout",
+    "responsive"
   ],
- "author": "Sujeet Kumar",
+  "author": {
+    "name": "Sujeet Kumar",
+    "email": "rajrock7254@gmail.com"
+  },
   "license": "MIT",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getsettalk/react-native-rimeso-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/getsettalk/react-native-rimeso-styles/issues"
+  },
+  "homepage": "https://github.com/getsettalk/react-native-rimeso-styles#readme",
   "dependencies": {
     "react-native": "^0.74.3"
   },
@@ -23,5 +43,20 @@
     "@types/react": "^18.3.3",
     "@types/react-native": "^0.73.0",
     "typescript": "^5.5.4"
-  }
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "src",
+    "README.md"
+  ]
 }
