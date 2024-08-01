@@ -184,6 +184,92 @@ declare const baseStyles: {
   'end-50': ViewStyle;
   'end-100': ViewStyle;
 
+  // Font Sizes
+  'font-xs': TextStyle;
+  'font-sm': TextStyle;
+  'font-md': TextStyle;
+  'font-lg': TextStyle;
+  'font-xl': TextStyle;
+  'font-2xl': TextStyle;
+  'font-3xl': TextStyle;
+
+  // Line Height
+  'line-height-1': TextStyle;
+  'line-height-sm': TextStyle;
+  'line-height-md': TextStyle;
+  'line-height-lg': TextStyle;
+
+  // Text Transform
+  'text-uppercase': TextStyle;
+  'text-lowercase': TextStyle;
+  'text-capitalize': TextStyle;
+
+  // Text Decoration
+  'text-underline': TextStyle;
+  'text-line-through': TextStyle;
+
+  // Opacity
+  'opacity-0': ViewStyle;
+  'opacity-25': ViewStyle;
+  'opacity-50': ViewStyle;
+  'opacity-75': ViewStyle;
+  'opacity-100': ViewStyle;
+
+  // Overflow
+  'overflow-hidden': ViewStyle;
+  'overflow-visible': ViewStyle;
+  'overflow-scroll': ViewStyle;
+
+  // Z-Index
+  'z-0': ViewStyle;
+  'z-10': ViewStyle;
+  'z-20': ViewStyle;
+  'z-30': ViewStyle;
+  'z-40': ViewStyle;
+  'z-50': ViewStyle;
+
+  // Elevation (for Android shadow)
+  'elevation-1': ViewStyle;
+  'elevation-3': ViewStyle;
+  'elevation-5': ViewStyle;
+
+  // Shadow (for iOS)
+  'shadow-sm': ViewStyle;
+  'shadow-md': ViewStyle;
+  'shadow-lg': ViewStyle;
+
+  // Border Width
+  'border': ViewStyle;
+  'border-0': ViewStyle;
+  'border-2': ViewStyle;
+  'border-4': ViewStyle;
+
+  // Border Color
+  'border-primary': ViewStyle;
+  'border-secondary': ViewStyle;
+  'border-success': ViewStyle;
+  'border-danger': ViewStyle;
+
+  // Text Align Vertical
+  'text-align-auto': TextStyle;
+  'text-align-top': TextStyle;
+  'text-align-bottom': TextStyle;
+  'text-align-center': TextStyle;
+
+  // Flex Wrap
+  'flex-wrap': ViewStyle;
+  'flex-nowrap': ViewStyle;
+
+  // Align Self
+  'self-start': ViewStyle;
+  'self-end': ViewStyle;
+  'self-center': ViewStyle;
+  'self-stretch': ViewStyle;
+
+  // Resize Mode (for Image component)
+  'resize-cover': ImageStyle;
+  'resize-contain': ImageStyle;
+  'resize-stretch': ImageStyle;
   // Add more utility classes here
 };
 

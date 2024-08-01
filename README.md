@@ -1,6 +1,6 @@
 # Rimeso CSS Utility Classes for `React Native`
 
-> `react-native-rimeso-styles` - Utility-first design library inspired by frameworks like Bootstrap
+> react-native-rimeso-styles - Utility-first design library inspired by frameworks like Bootstrap
 
 
 [![npm version](https://img.shields.io/npm/v/react-native-rimeso-styles.svg)](https://www.npmjs.com/package/react-native-rimeso-styles)
@@ -16,6 +16,7 @@ This documentation provides an overview of the utility classes available in the 
 
 ## Table of Contents
 
+- [How to use](#How-to-use)
 - [Flexbox](#flexbox)
 - [Aspect Ratio](#aspect-ratio)
 - [Background Colors](#background-colors)
@@ -28,7 +29,7 @@ This documentation provides an overview of the utility classes available in the 
 - [Font Weight](#font-weight)
 - [Position](#position)
 - [Position Offsets](#position-offsets)
-- [How to use](#How-to-use)
+
 
 ## Flexbox
 
@@ -224,6 +225,113 @@ This documentation provides an overview of the utility classes available in the 
 - **`end-50`**: Sets end offset to 50%.
 - **`end-100`**: Sets end offset to 100%.
 
+
+
+# New Updates (v1.2)
+Added many new classes for react-native app which may help you to achive you best UI design.
+
+## Font Sizes
+
+- **`font-xs`**: Sets font size to extra small (12).
+- **`font-sm`**: Sets font size to small (14).
+- **`font-md`**: Sets font size to medium (16).
+- **`font-lg`**: Sets font size to large (18).
+- **`font-xl`**: Sets font size to extra large (20).
+- **`font-2xl`**: Sets font size to 2x large (24).
+- **`font-3xl`**: Sets font size to 3x large (30).
+
+## Line Height
+
+- **`line-height-1`**: Sets line height to 1.
+- **`line-height-sm`**: Sets line height to 1.25.
+- **`line-height-md`**: Sets line height to 1.5.
+- **`line-height-lg`**: Sets line height to 1.75.
+
+## Text Transform
+
+- **`text-uppercase`**: Transforms text to uppercase.
+- **`text-lowercase`**: Transforms text to lowercase.
+- **`text-capitalize`**: Capitalizes the first letter of each word.
+
+## Text Decoration
+
+- **`text-underline`**: Underlines the text.
+- **`text-line-through`**: Applies a line-through to the text.
+
+## Opacity
+
+- **`opacity-0`**: Sets opacity to 0.
+- **`opacity-25`**: Sets opacity to 0.25.
+- **`opacity-50`**: Sets opacity to 0.5.
+- **`opacity-75`**: Sets opacity to 0.75.
+- **`opacity-100`**: Sets opacity to 1.
+
+## Overflow
+
+- **`overflow-hidden`**: Hides overflow content.
+- **`overflow-visible`**: Shows overflow content.
+- **`overflow-scroll`**: Makes overflow content scrollable.
+
+## Z-Index
+
+- **`z-0`**: Sets z-index to 0.
+- **`z-10`**: Sets z-index to 10.
+- **`z-20`**: Sets z-index to 20.
+- **`z-30`**: Sets z-index to 30.
+- **`z-40`**: Sets z-index to 40.
+- **`z-50`**: Sets z-index to 50.
+
+## Elevation (for Android shadow)
+
+- **`elevation-1`**: Sets elevation to 1.
+- **`elevation-3`**: Sets elevation to 3.
+- **`elevation-5`**: Sets elevation to 5.
+
+## Shadow (for iOS)
+
+- **`shadow-sm`**: Applies a small shadow.
+- **`shadow-md`**: Applies a medium shadow.
+- **`shadow-lg`**: Applies a large shadow.
+
+## Border Width
+
+- **`border`**: Applies a 1px border.
+- **`border-0`**: Removes border.
+- **`border-2`**: Applies a 2px border.
+- **`border-4`**: Applies a 4px border.
+
+## Border Color
+
+- **`border-primary`**: Sets border color to primary.
+- **`border-secondary`**: Sets border color to secondary.
+- **`border-success`**: Sets border color to success.
+- **`border-danger`**: Sets border color to danger.
+
+## Text Align Vertical
+
+- **`text-align-auto`**: Sets vertical text alignment to auto.
+- **`text-align-top`**: Aligns text to the top vertically.
+- **`text-align-bottom`**: Aligns text to the bottom vertically.
+- **`text-align-center`**: Centers text vertically.
+
+## Flex Wrap
+
+- **`flex-wrap`**: Allows flex items to wrap.
+- **`flex-nowrap`**: Prevents flex items from wrapping.
+
+## Align Self
+
+- **`self-start`**: Aligns flex item to the start.
+- **`self-end`**: Aligns flex item to the end.
+- **`self-center`**: Centers flex item.
+- **`self-stretch`**: Stretches flex item to fill the container.
+
+## Resize Mode (for Image component)
+
+- **`resize-cover`**: Scales the image to cover the frame.
+- **`resize-contain`**: Scales the image to fit within the frame.
+- **`resize-stretch`**: Stretches the image to fit the frame.
+
 ## Contributing
 
 If you'd like to contribute to the project, please read our [CONTRIBUTING.md](CONTRIBUTING.md) file.
@@ -234,7 +342,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-For any questions or feedback, please reach out to [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, please reach out to [eamil](mailto:rajrock7254@gmail.com).
 
 ---
 
@@ -248,19 +356,24 @@ To get started with `react-native-rimeso-styles`, follow these steps:
 
 1. **Install the Package**
 
-   ```bash
+```bash
    npm install react-native-rimeso-styles
-    ```
-
-   ```bash
+```
+```bash
    yarn add react-native-rimeso-styles
-   ```
+```
 
 ## How to use
 
 First Import RnStyles or if you have required than also import combineStyles
 ```
 import RnStyles, { combineStyles } from 'react-native-rimeso-styles';
+```
+
+Or
+
+```
+import RnStylesProxy from 'react-native-rimeso-styles';
 ```
 
 Than, you can use `RnStyles` inside `styles` attribute of our React-Native View Component , below you can see an example.

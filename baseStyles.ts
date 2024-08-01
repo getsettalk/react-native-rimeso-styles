@@ -502,7 +502,215 @@ const baseStyles = {
   'end-100': {
     right: '100%',
   },
+// Font Sizes
+'font-xs': {
+  fontSize: 12,
+},
+'font-sm': {
+  fontSize: 14,
+},
+'font-md': {
+  fontSize: 16,
+},
+'font-lg': {
+  fontSize: 18,
+},
+'font-xl': {
+  fontSize: 20,
+},
+'font-2xl': {
+  fontSize: 24,
+},
+'font-3xl': {
+  fontSize: 30,
+},
 
+// Line Height
+'line-height-1': {
+  lineHeight: 1,
+},
+'line-height-sm': {
+  lineHeight: 1.25,
+},
+'line-height-md': {
+  lineHeight: 1.5,
+},
+'line-height-lg': {
+  lineHeight: 1.75,
+},
+
+// Text Transform
+'text-uppercase': {
+  textTransform: 'uppercase',
+},
+'text-lowercase': {
+  textTransform: 'lowercase',
+},
+'text-capitalize': {
+  textTransform: 'capitalize',
+},
+
+// Text Decoration
+'text-underline': {
+  textDecorationLine: 'underline',
+},
+'text-line-through': {
+  textDecorationLine: 'line-through',
+},
+
+// Opacity
+'opacity-0': {
+  opacity: 0,
+},
+'opacity-25': {
+  opacity: 0.25,
+},
+'opacity-50': {
+  opacity: 0.5,
+},
+'opacity-75': {
+  opacity: 0.75,
+},
+'opacity-100': {
+  opacity: 1,
+},
+
+// Overflow
+'overflow-hidden': {
+  overflow: 'hidden',
+},
+'overflow-visible': {
+  overflow: 'visible',
+},
+'overflow-scroll': {
+  overflow: 'scroll',
+},
+
+// Z-Index
+'z-0': {
+  zIndex: 0,
+},
+'z-10': {
+  zIndex: 10,
+},
+'z-20': {
+  zIndex: 20,
+},
+'z-30': {
+  zIndex: 30,
+},
+'z-40': {
+  zIndex: 40,
+},
+'z-50': {
+  zIndex: 50,
+},
+
+// Elevation (for Android shadow)
+'elevation-1': {
+  elevation: 1,
+},
+'elevation-3': {
+  elevation: 3,
+},
+'elevation-5': {
+  elevation: 5,
+},
+
+// Shadow (for iOS)
+'shadow-sm': {
+  shadowColor: '#000',
+  shadowOffset: { width: 0, height: 1 },
+  shadowOpacity: 0.2,
+  shadowRadius: 1.41,
+},
+'shadow-md': {
+  shadowColor: '#000',
+  shadowOffset: { width: 0, height: 2 },
+  shadowOpacity: 0.23,
+  shadowRadius: 2.62,
+},
+'shadow-lg': {
+  shadowColor: '#000',
+  shadowOffset: { width: 0, height: 4 },
+  shadowOpacity: 0.30,
+  shadowRadius: 4.65,
+},
+
+// Border Width
+'border': {
+  borderWidth: 1,
+},
+'border-0': {
+  borderWidth: 0,
+},
+'border-2': {
+  borderWidth: 2,
+},
+'border-4': {
+  borderWidth: 4,
+},
+
+// Border Color (assuming you have a colors object)
+'border-primary': {
+  borderColor: colors.primary,
+},
+'border-secondary': {
+  borderColor: colors.secondary,
+},
+'border-success': {
+  borderColor: colors.success,
+},
+'border-danger': {
+  borderColor: colors.danger,
+},
+
+// Text Align Vertical
+'text-align-auto': {
+  textAlignVertical: 'auto',
+},
+'text-align-top': {
+  textAlignVertical: 'top',
+},
+'text-align-bottom': {
+  textAlignVertical: 'bottom',
+},
+'text-align-center': {
+  textAlignVertical: 'center',
+},
+
+// Flex Wrap
+'flex-wrap': {
+  flexWrap: 'wrap',
+},
+'flex-nowrap': {
+  flexWrap: 'nowrap',
+},
+
+// Align Self
+'self-start': {
+  alignSelf: 'flex-start',
+},
+'self-end': {
+  alignSelf: 'flex-end',
+},
+'self-center': {
+  alignSelf: 'center',
+},
+'self-stretch': {
+  alignSelf: 'stretch',
+},
+
+// Resize Mode (for Image component)
+'resize-cover': {
+  resizeMode: 'cover',
+},
+'resize-contain': {
+  resizeMode: 'contain',
+},
+'resize-stretch': {
+  resizeMode: 'stretch',
+},
   // Add more utility classes here as needed
 } as const;
 

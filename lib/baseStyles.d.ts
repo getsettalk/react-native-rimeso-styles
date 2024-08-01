@@ -477,5 +477,194 @@ declare const baseStyles: {
     readonly 'end-100': {
         readonly right: "100%";
     };
+    readonly 'font-xs': {
+        readonly fontSize: 12;
+    };
+    readonly 'font-sm': {
+        readonly fontSize: 14;
+    };
+    readonly 'font-md': {
+        readonly fontSize: 16;
+    };
+    readonly 'font-lg': {
+        readonly fontSize: 18;
+    };
+    readonly 'font-xl': {
+        readonly fontSize: 20;
+    };
+    readonly 'font-2xl': {
+        readonly fontSize: 24;
+    };
+    readonly 'font-3xl': {
+        readonly fontSize: 30;
+    };
+    readonly 'line-height-1': {
+        readonly lineHeight: 1;
+    };
+    readonly 'line-height-sm': {
+        readonly lineHeight: 1.25;
+    };
+    readonly 'line-height-md': {
+        readonly lineHeight: 1.5;
+    };
+    readonly 'line-height-lg': {
+        readonly lineHeight: 1.75;
+    };
+    readonly 'text-uppercase': {
+        readonly textTransform: "uppercase";
+    };
+    readonly 'text-lowercase': {
+        readonly textTransform: "lowercase";
+    };
+    readonly 'text-capitalize': {
+        readonly textTransform: "capitalize";
+    };
+    readonly 'text-underline': {
+        readonly textDecorationLine: "underline";
+    };
+    readonly 'text-line-through': {
+        readonly textDecorationLine: "line-through";
+    };
+    readonly 'opacity-0': {
+        readonly opacity: 0;
+    };
+    readonly 'opacity-25': {
+        readonly opacity: 0.25;
+    };
+    readonly 'opacity-50': {
+        readonly opacity: 0.5;
+    };
+    readonly 'opacity-75': {
+        readonly opacity: 0.75;
+    };
+    readonly 'opacity-100': {
+        readonly opacity: 1;
+    };
+    readonly 'overflow-hidden': {
+        readonly overflow: "hidden";
+    };
+    readonly 'overflow-visible': {
+        readonly overflow: "visible";
+    };
+    readonly 'overflow-scroll': {
+        readonly overflow: "scroll";
+    };
+    readonly 'z-0': {
+        readonly zIndex: 0;
+    };
+    readonly 'z-10': {
+        readonly zIndex: 10;
+    };
+    readonly 'z-20': {
+        readonly zIndex: 20;
+    };
+    readonly 'z-30': {
+        readonly zIndex: 30;
+    };
+    readonly 'z-40': {
+        readonly zIndex: 40;
+    };
+    readonly 'z-50': {
+        readonly zIndex: 50;
+    };
+    readonly 'elevation-1': {
+        readonly elevation: 1;
+    };
+    readonly 'elevation-3': {
+        readonly elevation: 3;
+    };
+    readonly 'elevation-5': {
+        readonly elevation: 5;
+    };
+    readonly 'shadow-sm': {
+        readonly shadowColor: "#000";
+        readonly shadowOffset: {
+            readonly width: 0;
+            readonly height: 1;
+        };
+        readonly shadowOpacity: 0.2;
+        readonly shadowRadius: 1.41;
+    };
+    readonly 'shadow-md': {
+        readonly shadowColor: "#000";
+        readonly shadowOffset: {
+            readonly width: 0;
+            readonly height: 2;
+        };
+        readonly shadowOpacity: 0.23;
+        readonly shadowRadius: 2.62;
+    };
+    readonly 'shadow-lg': {
+        readonly shadowColor: "#000";
+        readonly shadowOffset: {
+            readonly width: 0;
+            readonly height: 4;
+        };
+        readonly shadowOpacity: 0.3;
+        readonly shadowRadius: 4.65;
+    };
+    readonly border: {
+        readonly borderWidth: 1;
+    };
+    readonly 'border-0': {
+        readonly borderWidth: 0;
+    };
+    readonly 'border-2': {
+        readonly borderWidth: 2;
+    };
+    readonly 'border-4': {
+        readonly borderWidth: 4;
+    };
+    readonly 'border-primary': {
+        readonly borderColor: "#007bff";
+    };
+    readonly 'border-secondary': {
+        readonly borderColor: "#6c757d";
+    };
+    readonly 'border-success': {
+        readonly borderColor: "#28a745";
+    };
+    readonly 'border-danger': {
+        readonly borderColor: "#dc3545";
+    };
+    readonly 'text-align-auto': {
+        readonly textAlignVertical: "auto";
+    };
+    readonly 'text-align-top': {
+        readonly textAlignVertical: "top";
+    };
+    readonly 'text-align-bottom': {
+        readonly textAlignVertical: "bottom";
+    };
+    readonly 'text-align-center': {
+        readonly textAlignVertical: "center";
+    };
+    readonly 'flex-wrap': {
+        readonly flexWrap: "wrap";
+    };
+    readonly 'flex-nowrap': {
+        readonly flexWrap: "nowrap";
+    };
+    readonly 'self-start': {
+        readonly alignSelf: "flex-start";
+    };
+    readonly 'self-end': {
+        readonly alignSelf: "flex-end";
+    };
+    readonly 'self-center': {
+        readonly alignSelf: "center";
+    };
+    readonly 'self-stretch': {
+        readonly alignSelf: "stretch";
+    };
+    readonly 'resize-cover': {
+        readonly resizeMode: "cover";
+    };
+    readonly 'resize-contain': {
+        readonly resizeMode: "contain";
+    };
+    readonly 'resize-stretch': {
+        readonly resizeMode: "stretch";
+    };
 };
 export default baseStyles;
